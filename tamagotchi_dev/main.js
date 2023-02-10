@@ -90,7 +90,7 @@ function gameOver() {
     clearInterval(myInterval);
     running = false;
     console.log("heihei")
-    alert('Game over');
+    alert(petName + ' døde. Fornøyd?');
   }
   
   updateView();
